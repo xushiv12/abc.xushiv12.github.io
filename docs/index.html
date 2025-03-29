@@ -3,24 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>blob URL</title>
+
 </head>
 <body>
 
-<h1 id="d">try blob</h1><br>
-<textarea id="c"></textarea><br>
-<button onclick="A()">make blob</button>
-<script>
-  function A(){
-    var blo=document.getElementById('c').value.trim();
-    var b=new Blob([blo],{type:'text/JavaScript '});
-    let c=URL.createObjectURL(b);
-    const d=document.createElement('a');
-    a.href=c;
-    a.target="_blank";
-    a.innerText="👉BLOB!";
-    document.getElementById('d').innerText="";
-    document.getElementById('d').appendChild(a);
-  }
-</script>
+<h1><a href="javascript:;">try</a></h1><br>
+
 </body>
 </html>
