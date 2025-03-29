@@ -11,10 +11,10 @@
 <button onclick="A()">make blob</button>
 <script>
   function A(){
-    var a=document.getElementById('y').value.trim();
-		var b=new Blob([a],{type:'text/JavaScript '});
-		let c=URL.createObjectURL(b);
-		const d=document.createElement('a');
+    var blo=document.getElementById('c').value.trim();
+    var b=new Blob([blo],{type:'text/JavaScript '});
+    let c=URL.createObjectURL(b);
+    const d=document.createElement('a');
     a.href=c;
     a.target="_blank";
     a.innerText="👉BLOB!";
